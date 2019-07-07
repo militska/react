@@ -6,20 +6,13 @@
  * @flow
  */
 import React, {Component} from 'react';
-import {Text, AsyncStorage} from 'react-native';
-
-
-
-
-
+import {Text} from 'react-native';
 
 export default class Hello extends Component {
-
 
     static navigationOptions = {
         title: 'App',
     };
-
 
 
     render() {
